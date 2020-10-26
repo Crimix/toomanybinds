@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Set;
 
 public class VanillaKeybindSuggestions implements SuggestionProvider {
-    private static final Set<String> blacklist = new HashSet<String>(Arrays.asList(
+    private static final Set<String> blacklist = new HashSet<>(Arrays.asList(
             // pointless
             "key.use",
             "key.toomanybinds.launcher",

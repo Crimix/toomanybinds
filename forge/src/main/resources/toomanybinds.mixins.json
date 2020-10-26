@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dzwdz.toomanybinds.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "toomanybinds.refmap.json",
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

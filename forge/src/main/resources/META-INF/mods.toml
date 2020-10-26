@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+issueTrackerURL="https://github.com/dzwdz/toomanybinds/issues" #optional
+license="Mozilla Public License 2.0"
+
+[[mods]]
+    modId="toomanybinds"
+    version="${file.jarVersion}"
+    displayName="Too Many Binds Forge"
+	logoFile="icon.png"
+	authors="dzwdz"
+    description=''' '''
+
+[[dependencies.toomanybinds]]
+    modId="forge"
+    mandatory=true
+    versionRange="[34,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.toomanybinds]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3]"
+    ordering="NONE"
+    side="BOTH"
